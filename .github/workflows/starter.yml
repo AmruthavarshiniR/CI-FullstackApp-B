@@ -30,7 +30,7 @@ jobs:
 
       # Install the dependencies.
       - run: cd backend && npm ci
-      - run: cd backend && npm init @eslint/config
+      - run: cd backend && npm init
 
       # Run the tests.
       - run: cd backend && npm test
